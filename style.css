@@ -143,3 +143,80 @@ header > h4 {
 .story_description_images_right {
   background-image: url('imgs/built_img.png');
 }
+.capabilities {
+  padding-top: 100px;
+  width: 940px;
+  height: 446px;
+  margin: 0 auto;
+}
+.capabilities > div {
+  display: flex;
+  justify-content: space-between;
+}
+.capabilities_left {
+  width: 199px;
+  text-align: left;
+}
+.capabilities_left > h1 {
+  font-size: 18px;
+  color: #485548;
+}
+.capabilities_left > hr {
+  margin-top: 10px;
+  border: 0;
+  height: 2px;
+  width: 50px;
+  background-color: #00a4e5;
+}
+.capabilities_middle {
+  width: 405px;
+  margin-left: 100px;
+  height: 38px;
+}
+.capabilities_middle > h4 {
+  font-size: 11px;
+  line-height: 19px;
+  color: #48555b;
+}
+.capabilities_right {
+  text-align: right;
+  width: 150px;
+}
+.capabilities_right > button {
+  width: 150px;
+  height: 40px;
+  background-color: #00a4e5;
+  border: 0;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+}
+.down_div {
+  margin-top: 100px;
+}
+.down_div_element {
+  width: 295px;
+  height: 330px;
+}
+.down_div_element > img {
+  width: 65px;
+  height: 75px;
+  margin-top: 38px;
+  margin-left: 23px;
+}
+.down_div_element > h1 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #48555b;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.down_div_element > h4 {
+  font-size: 13px;
+  line-height: 23px;
+  color: #48555b;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
